@@ -10,7 +10,7 @@ custom:
   plantCareEventsTableName: "plant-care-events-${self:provider.stage}"
   userPlantsTableName: "user-plant-${self:provider.stage}"
   wsgi:
-    app: app.app
+    app: wsgi.app
   dynamodb:
     start:
       migrate: true

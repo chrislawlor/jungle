@@ -6,7 +6,7 @@ from typing import List, Optional
 
 USERS_TABLE = os.environ.get("USERS_TABLE", "users-dev")
 PLANTS_TABLE = os.environ.get("PLANTS_TABLE", "plants-dev")
-USER_PLANTS_TABLE = os.environ.get("USER_PLANTS_TABLE", "user-plants-dev")
+USER_PLANTS_TABLE = os.environ.get("USER_PLANTS_TABLE", "user-plant-dev")
 
 
 class Auth0Signup(BaseModel):
